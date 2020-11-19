@@ -1,0 +1,73 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC16F84A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\semaforo\main]
+Type=4
+[mru-list]
+1=main.c
+
+[ProjectLog]
+Days=1
+D1=19-11-2020
+D1_L=40
+D1_L1=[43376]Project Opened.
+D1_L2=[43417]Started Editing.
+D1_L3=[43596]Stopped Editing.
+TotalEdit=31
+TotalDebug=0
+D1_E=31
+D1_D=0
+D1_L4=[43596]Project Closed.
+D1_L5=[43596]Project Opened.
+D1_L6=[43645]Started Editing.
+D1_L7=[43779]Stopped Editing.
+D1_L8=[43779]Project Closed.
+D1_L9=[43807]Project Opened.
+D1_L10=[43823]Started Editing.
+D1_L11=[43960]Stopped Editing.
+D1_L12=[43960]Project Closed.
+D1_L13=[44008]Project Opened.
+D1_L14=[44023]Started Editing.
+D1_L15=[44070]Stopped Editing.
+D1_L16=[44070]Project Closed.
+D1_L17=[44135]Project Opened.
+D1_L18=[44166]Started Editing.
+D1_L19=[44763]Stopped Editing.
+D1_L20=[44801]Started Editing.
+D1_L21=[45176]Project Closed.
+D1_L22=[45229]Project Opened.
+D1_L23=[45286]Started Editing.
+D1_L24=[45376]Stopped Editing.
+D1_L25=[46855]Started Editing.
+D1_L26=[47616]Stopped Editing.
+D1_L27=[47901]Started Editing.
+D1_L28=[48745]Stopped Editing.
+D1_L29=[48910]Started Editing.
+D1_L30=[48993]Stopped Editing.
+D1_L31=[49021]Project Closed.
+D1_L32=[49021]Project Opened.
+D1_L33=[49042]Project Closed.
+D1_L34=[49149]Project Opened.
+D1_L35=[49614]Project Closed.
+D1_L36=[50711]Project Opened.
+D1_L37=[51011]Project Closed.
+D1_L38=[51378]Project Opened.
+D1_L39=[51799]Started Editing.
+D1_L40=[52133]Stopped Editing.
+
+[Opened Files]
+1=main.c
+2=main.h
+3=
+[main.c]
+Type=4
+[Units]
+Count=1
+1=main (main)
