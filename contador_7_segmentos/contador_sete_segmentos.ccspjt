@@ -1,0 +1,44 @@
+[PROJECT]
+Target=contador_sete_segmentos.hex
+Processor_Text=PIC16F84A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=contador_sete_segmentos.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\contador_7_segmentos\contador_sete_segmentos]
+Type=4
+[mru-list]
+1=contador_sete_segmentos.c
+
+[ProjectLog]
+Days=1
+D1=19-11-2020
+D1_L=15
+D1_L1=[54660]Project Opened.
+D1_L2=[55275]Started Editing.
+D1_L3=[56199]Stopped Editing.
+D1_L4=[56381]Started Editing.
+D1_L5=[57869]Stopped Editing.
+D1_L6=[60939]Started Editing.
+D1_L7=[61245]Stopped Editing.
+D1_L8=[62240]Started Editing.
+D1_L9=[62944]Stopped Editing.
+D1_L10=[63051]Started Editing.
+D1_L11=[65670]Stopped Editing.
+D1_L12=[66000]Started Editing.
+D1_L13=[68876]Stopped Editing.
+D1_L14=[69313]Started Editing.
+D1_L15=[70291]Stopped Editing.
+
+[Opened Files]
+1=contador_sete_segmentos.c
+2=contador_sete_segmentos.h
+3=
+[contador_sete_segmentos.c]
+Type=4
+[Units]
+Count=1
+1=contador_sete_segmentos (main)
