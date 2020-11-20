@@ -14,9 +14,9 @@ Type=4
 1=contador_sete_segmentos.c
 
 [ProjectLog]
-Days=1
+Days=2
 D1=19-11-2020
-D1_L=22
+D1_L=24
 D1_L1=[54660]Project Opened.
 D1_L2=[55275]Started Editing.
 D1_L3=[56199]Stopped Editing.
@@ -34,15 +34,33 @@ D1_L14=[69313]Started Editing.
 D1_L15=[70291]Stopped Editing.
 D1_L16=[79059]Started Editing.
 D1_L17=[79502]Stopped Editing.
-TotalEdit=138
+TotalEdit=169
 TotalDebug=0
-D1_E=138
+D1_E=168
 D1_D=0
 D1_L18=[79502]Project Closed.
 D1_L19=[81949]Project Opened.
 D1_L20=[81968]Started Editing.
 D1_L21=[84017]Stopped Editing.
 D1_L22=[84129]Started Editing.
+D1_L23=[84179]Stopped Editing.
+D1_L24=[84179]Project Closed.
+D2=20-11-2020
+D2_L=12
+D2_L1=[35695]Project Opened.
+D2_L2=[36168]Started Editing.
+D2_L3=[36489]Stopped Editing.
+D2_L4=[37072]Started Editing.
+D2_L5=[37397]Stopped Editing.
+D2_L6=[38578]Started Editing.
+D2_L7=[38889]Stopped Editing.
+D2_L8=[39003]Project Opened.
+D2_L9=[39010]Project Closed.
+D2_E=1
+D2_D=0
+D2_L10=[39017]Project Closed.
+D2_L11=[39242]Project Opened.
+D2_L12=[39506]Started Editing.
 
 [Opened Files]
 1=contador_sete_segmentos.c

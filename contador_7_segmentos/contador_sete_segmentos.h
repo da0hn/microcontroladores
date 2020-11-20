@@ -38,7 +38,21 @@
 #define F PIN_B1
 #define G PIN_B0
 
-void contador();
-void setPinos(int8 pinos[7]);
-void setDisplayUnidade(int8 pinos[7]);
-void setDisplayDezena(int8 pinos[7]);
+int8 portas_b[] = {E, D, C, B, A, F, G};
+
+int1 numeros[][7] = {
+//   E  D  C  B  A  F  G
+    {1, 1, 1, 1, 1, 1, 0}, // zero
+    {0, 0, 1, 1, 0, 0, 0}, // um
+    {1, 1, 0, 1, 1, 0, 1}, // dois
+    {0, 1, 1, 1, 1, 0, 1}, // três
+    {0, 0, 1, 1, 0, 1, 1}, // quatro
+    {0, 1, 1, 0, 1, 1, 1}, // cinco
+    {1, 1, 1, 0, 1, 1, 1}, // seis
+    {0, 0, 1, 1, 1, 0, 0}, // sete
+    {1, 1, 1, 1, 1, 1, 1}, // oito
+    {0, 1, 1, 1, 1, 1, 1}, // nove
+};
+
+void setPinos(int8& numero);
+void mostrarNoDisplay(int8& dezena, int8& unidade);
