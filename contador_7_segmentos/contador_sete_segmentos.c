@@ -24,33 +24,68 @@
 
 void main()
 {
+    int8 dezena = 0, unidade = 0;
+    int1 flag = 1;
+    output_low(PIN_A1);
+
     while (TRUE)
     {
-        for (int8 dezena = 0; dezena < 10; dezena++)
+        while (dezena < 10)
         {
-            for (int8 unidade = 0; unidade < 10; unidade++)
+            while (unidade < 10)
             {
                 mostrarNoDisplay(dezena, unidade);
+                
+                if(!input(PIN_A1)) flag = flag == 1 ? 0 : 1;
+                
+                if (flag) {
+                    if(unidade+1 == 10 && dezena+1 == 10) {
+                        flag = 0;
+                    }
+                    else if(unidade+1 == 10) {
+                        unidade = 0;
+                        dezena++;
+                    }
+                    else {
+                        unidade++;
+                    }
+
+                } else {
+                    if(unidade-1 == -1) {
+                        unidade = 9;
+                        if(dezena-1 == -1) {
+                            dezena=0;
+                            unidade=0;
+                            flag = 1;
+                        }
+                        else {
+                            dezena--;
+                        }
+                    }
+                    else {
+                        unidade--;
+                    }
+                }
             }
         }
     }
 }
 
-void mostrarNoDisplay(int8& dezena, int8& unidade)
+void mostrarNoDisplay(int8 &dezena, int8 &unidade)
 {
     for (int8 timer = 0; timer < 10; timer++)
     {
-        output_toggle(PIN_B4);
+        output_high(PIN_B4);
         setPinos(unidade);
-        delay_ms(50);
+        delay_ms(25);
 
-        output_toggle(PIN_B4);
+        output_low(PIN_B4);
         setPinos(dezena);
-        delay_ms(50);
+        delay_ms(25);
     }
 }
 
-void setPinos(int8& numero)
+void setPinos(int8 &numero)
 {
     for (int8 pino = 0; pino < 7; pino++)
     {
