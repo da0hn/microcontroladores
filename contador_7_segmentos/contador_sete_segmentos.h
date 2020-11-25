@@ -56,3 +56,5 @@ int1 numeros[][7] = {
 
 void setPinos(int8& numero);
 void mostrarNoDisplay(int8& dezena, int8& unidade);
+void modoDecrescente(int1& flag, int8 &dezena, int8 &unidade);
+void modoCrescente(int1& flag, int8 &dezena, int8 &unidade);
