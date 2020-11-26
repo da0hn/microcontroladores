@@ -31,7 +31,7 @@
  *    {1, 1, 1, 1, 1, 1, 0}, // zero      -> 3F
  *    {0, 0, 1, 1, 0, 0, 0}, // um        -> 0C
  *    {1, 1, 0, 1, 1, 0, 1}, // dois      -> 5B
- *    {0, 1, 1, 1, 1, 0, 1}, // três      -> 5E
+ *    {0, 1, 1, 1, 1, 0, 1}, // três     -> 5E
  *    {0, 0, 1, 1, 0, 1, 1}, // quatro    -> 6C
  *    {0, 1, 1, 0, 1, 1, 1}, // cinco     -> 76
  *    {1, 1, 1, 0, 1, 1, 1}, // seis      -> 77
@@ -39,10 +39,8 @@
  *    {1, 1, 1, 1, 1, 1, 1}, // oito      -> 7F
  *    {0, 1, 1, 1, 1, 1, 1}, // nove      -> 7E
  */
-int8 portas_b[] = {E, D, C, B, A, F, G};
-int8 numeros[] = {0x3F, 0x0C, 0x5B, 0x5E, 0x6C, 0x76, 0x77, 0x1C, 0x7F, 0x7E};
+const int8 portas_b[] = {E, D, C, B, A, F, G};
+const int8 numeros[] = {0x3F, 0x0C, 0x5B, 0x5E, 0x6C, 0x76, 0x77, 0x1C, 0x7F, 0x7E};
 
-void setPinos(int8& numero);
-void mostrarNoDisplay(int8& dezena, int8& unidade);
-void modoDecrescente(int1& flag, int8 &dezena, int8 &unidade);
-void modoCrescente(int1& flag, int8 &dezena, int8 &unidade);
+void setPinos(int8);
+void mostrarNoDisplay(int8, int8);
