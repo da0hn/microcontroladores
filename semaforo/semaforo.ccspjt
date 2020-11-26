@@ -67,7 +67,7 @@ D1_L43=[53159]Project Closed.
 D1_L44=[54220]Project Opened.
 D1_L45=[54660]Project Closed.
 D2=25-11-2020
-D2_L=18
+D2_L=24
 D2_L1=[65510]Project Opened.
 D2_L2=[65661]Project Closed.
 D2_L3=[65661]Project Opened.
@@ -88,6 +88,12 @@ D2_L15=[72927]Started Editing.
 D2_L16=[73228]Stopped Editing.
 D2_L17=[73401]Started Editing.
 D2_L18=[73817]Stopped Editing.
+D2_L19=[74512]Started Editing.
+D2_L20=[74914]Stopped Editing.
+D2_L21=[75015]Started Editing.
+D2_L22=[75604]Stopped Editing.
+D2_L23=[76169]Started Editing.
+D2_L24=[76544]Stopped Editing.
 
 [Opened Files]
 1=semaforo.c
