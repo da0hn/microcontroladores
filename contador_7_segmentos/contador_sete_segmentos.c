@@ -1,20 +1,5 @@
 #include <contador_sete_segmentos.h>
 
-/** 
- * a => rb2 | b => rb3 | c => rb5 | d => rb6 | e => rb7 | f => rb1 | g => rb0       
- *              B4
- *     E  D  C       B  A  F  G
- * 0 = 1  1  1   0   1  1  1  0
- * 1 = 0  0  1   0   1  0  0  0
- * 2 = 1  1  0   0   1  1  0  1
- * 3 = 0  1  1   0   1  1  0  1
- * 4 = 0  0  1   0   1  0  1  1
- * 5 = 0  1  1   0   0  1  1  1
- * 6 = 1  1  1   0   0  1  1  1
- * 7 = 0  0  1   0   1  1  0  0
- * 8 = 1  1  1   0   1  1  1  1
- * 9 = 0  1  1   0   1  1  1  1 
- * */
 
 void main()
 {
@@ -30,7 +15,7 @@ void main()
 
                 // Inverte o estado da flag caso o botão esteja pressionado
                 if (!input(PIN_A1))
-                    flag = flag == 1 ? 0 : 1;
+                    flag = !flag;
 
                 // Executa a rotina de incremento/decremento de acordo com a flag
 
@@ -46,6 +31,11 @@ void main()
         }
     }
 }
+
+/**
+ * unidade = numero % 10
+ * dezena  = (numero - (numero % 10)); 
+ * */
 
 /**
  * Executa o contador no modo crescente alterando as variáveis dezena e unidade
@@ -124,11 +114,8 @@ void mostrarNoDisplay(int8 &dezena, int8 &unidade)
  * */
 void setPinos(int8 &numero)
 {
-    for (int8 pino = 0; pino < 7; pino++)
-    {
-        if (numeros[numero][pino] == 1)
-            output_high(portas_b[pino]);
-        else
-            output_low(portas_b[pino]);
+    // numeros[numero] & (1 << pino) ? output_high(portas_b[pino]) : output_low(portas_b[pino]);
+    for(int8 pino=0; pino<7; pino++) {
+        output(portas_b[pino], numeros[numero] & (1 << pino));
     }
 }

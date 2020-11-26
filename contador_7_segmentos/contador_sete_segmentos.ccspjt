@@ -74,13 +74,16 @@ D3_L4=[49678]Project Closed.
 D3_L5=[55071]Project Opened.
 D3_L6=[58026]Project Closed.
 D4=25-11-2020
-D4_L=4
+D4_L=7
 D4_L1=[61263]Project Opened.
 D4_L2=[64921]Started Editing.
 D4_L3=[65325]Stopped Editing.
 D4_E=2
 D4_D=0
 D4_L4=[65510]Project Closed.
+D4_L5=[78903]Project Opened.
+D4_L6=[79483]Started Editing.
+D4_L7=[80798]Stopped Editing.
 
 [Opened Files]
 1=contador_sete_segmentos.c
