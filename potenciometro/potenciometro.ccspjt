@@ -1,0 +1,56 @@
+[PROJECT]
+Target=potenciometro.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=potenciometro.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\potenciometro]
+Type=4
+[mru-list]
+1=potenciometro.c
+
+[ProjectLog]
+Days=2
+D1=26-11-2020
+D1_L=15
+D1_L1=[40776]Project Opened.
+D1_L2=[41070]Project Opened.
+TotalEdit=32
+TotalDebug=0
+D1_E=28
+D1_D=0
+D1_L3=[41361]Started Editing.
+D1_L4=[41667]Stopped Editing.
+D1_L5=[41748]Started Editing.
+D1_L6=[42085]Stopped Editing.
+D1_L7=[43007]Started Editing.
+D1_L8=[43310]Stopped Editing.
+D1_L9=[43455]Started Editing.
+D1_L10=[44072]Stopped Editing.
+D1_L11=[44131]Started Editing.
+D1_L12=[44478]Stopped Editing.
+D1_L13=[44560]Started Editing.
+D1_L14=[45546]Stopped Editing.
+D1_L15=[45546]Project Closed.
+D2=30-11-2020
+D2_L=4
+D2_L1=[50533]Project Opened.
+D2_L2=[50547]Started Editing.
+D2_L3=[51057]Stopped Editing.
+D2_E=4
+D2_D=0
+D2_L4=[51600]Project Closed.
+
+[Opened Files]
+1=potenciometro.c
+2=potenciometro.h
+3=
+[potenciometro.c]
+Type=4
+[Units]
+Count=1
+1=potenciometro (main)

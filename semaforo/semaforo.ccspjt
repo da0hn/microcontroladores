@@ -14,7 +14,7 @@ Type=4
 1=semaforo.c
 
 [ProjectLog]
-Days=2
+Days=3
 D1=19-11-2020
 D1_L=45
 D1_L1=[43376]Project Opened.
@@ -67,7 +67,7 @@ D1_L43=[53159]Project Closed.
 D1_L44=[54220]Project Opened.
 D1_L45=[54660]Project Closed.
 D2=25-11-2020
-D2_L=25
+D2_L=26
 D2_L1=[65510]Project Opened.
 D2_L2=[65661]Project Closed.
 D2_L3=[65661]Project Opened.
@@ -95,6 +95,13 @@ D2_L22=[75604]Stopped Editing.
 D2_L23=[76169]Started Editing.
 D2_L24=[76544]Stopped Editing.
 D2_L25=[78903]Project Closed.
+D2_L26=[84894]Project Closed.
+D3=26-11-2020
+D3_L=4
+D3_L1=[37903]Project Opened.
+D3_L2=[38306]Project Closed.
+D3_L3=[38661]Project Opened.
+D3_L4=[40776]Project Closed.
 
 [Opened Files]
 1=semaforo.c

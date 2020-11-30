@@ -1,0 +1,12 @@
+#include <potenciometro.h>
+
+void main()
+{
+    
+    
+    while(TRUE)
+    {
+        
+    }
+
+}

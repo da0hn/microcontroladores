@@ -1,0 +1,12 @@
+#include <potenciometro.h>
+
+void main()
+{
+    set_adc_channel();
+    
+    while(TRUE)
+    {
+        
+    }
+
+}
