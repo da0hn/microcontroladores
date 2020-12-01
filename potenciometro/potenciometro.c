@@ -3,7 +3,7 @@
 void main()
 {
     int16 potencia = 0;
-
+    
     setup_adc(ADC_CLOCK_INTERNAL);
     setup_adc_ports(AN0);
     set_adc_channel(0);
@@ -19,6 +19,9 @@ void main()
 
 /**
  * Realiza o print no display dos valores das variáveis dezena e unidade
+ * 0~9 | 0~9
+ * 55 ~> 5 | 5
+ * 
  * */
 void mostrarNoDisplay(int16 numero)
 {

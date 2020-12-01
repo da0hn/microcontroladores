@@ -14,7 +14,7 @@ Type=4
 1=potenciometro.c
 
 [ProjectLog]
-Days=2
+Days=3
 D1=26-11-2020
 D1_L=15
 D1_L1=[40776]Project Opened.
@@ -37,13 +37,20 @@ D1_L13=[44560]Started Editing.
 D1_L14=[45546]Stopped Editing.
 D1_L15=[45546]Project Closed.
 D2=30-11-2020
-D2_L=4
+D2_L=6
 D2_L1=[50533]Project Opened.
 D2_L2=[50547]Started Editing.
 D2_L3=[51057]Stopped Editing.
 D2_E=4
 D2_D=0
 D2_L4=[51600]Project Closed.
+D2_L5=[54488]Project Opened.
+D2_L6=[55997]Project Closed.
+D3=01-12-2020
+D3_L=3
+D3_L1=[39540]Project Opened.
+D3_L2=[39872]Project Opened.
+D3_L3=[40144]Project Closed.
 
 [Opened Files]
 1=potenciometro.c

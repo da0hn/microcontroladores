@@ -17,8 +17,6 @@
 #define displayUnidade PIN_A5
 #define displayDezena  PIN_A4
 
-#define output(pin, bit) (bit) ? output_high(pin) : output_low(pin)
-
 const int8 portas_b[] = {E, D, C, B, A, F, G};
 const int8 numeros[][7] = {
     {1, 1, 1, 1, 1, 1, 0}, // zero
