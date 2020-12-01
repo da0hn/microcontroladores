@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-*Explique em detalhes o que deve ser feito no exercício: *
+**Explique em detalhes o que deve ser feito no exercício: **
 Uma descrição clara e concisa sobre o exercício
 
 * Insira aqui o microcontrolador que deve ser utilizado
