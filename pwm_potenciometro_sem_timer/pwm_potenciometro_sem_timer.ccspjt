@@ -1,0 +1,39 @@
+[PROJECT]
+Target=pwm_potenciometro_sem_timer.hex
+Processor_Text=PIC16F874A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=pwm_potenciometro_sem_timer.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\pwm_potenciometro_sem_timer]
+Type=4
+[mru-list]
+1=pwm_potenciometro_sem_timer.c
+
+[ProjectLog]
+Days=1
+D1=02-12-2020
+D1_L=6
+D1_L1=[78893]Project Opened.
+D1_L2=[78917]Project Closed.
+D1_L3=[78944]Project Opened.
+D1_L4=[78960]Started Editing.
+D1_L5=[80404]Stopped Editing.
+TotalEdit=25
+TotalDebug=0
+D1_E=25
+D1_D=0
+D1_L6=[80404]Project Closed.
+
+[Opened Files]
+1=pwm_potenciometro_sem_timer.c
+2=pwm_potenciometro_sem_timer.h
+3=
+[pwm_potenciometro_sem_timer.c]
+Type=4
+[Units]
+Count=1
+1=pwm_potenciometro_sem_timer (main)
