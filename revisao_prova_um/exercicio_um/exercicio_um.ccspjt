@@ -1,0 +1,31 @@
+[PROJECT]
+Target=exercicio_um.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=exercicio_um.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\revisao_prova_um\exercicio_um\exercicio_um]
+Type=4
+[mru-list]
+1=exercicio_um.c
+
+[ProjectLog]
+Days=1
+D1=02-12-2020
+D1_L=2
+D1_L1=[82980]Project Opened.
+D1_L2=[82987]Started Editing.
+
+[Opened Files]
+1=exercicio_um.c
+2=..\..\pwm_potenciometro_com_timer\pwm_potenciometro_com_timer.c
+3=
+[exercicio_um.c]
+Type=4
+[Units]
+Count=1
+1=exercicio_um (main)

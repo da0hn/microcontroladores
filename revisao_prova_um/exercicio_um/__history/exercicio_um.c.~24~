@@ -1,0 +1,53 @@
+#include <exercicio_um.h>
+// 20178440081
+const int8 u = 1;
+const int8 p = 8;
+const int8 a = 0;
+
+const int8 frequencia = 50;
+
+const int8 frequencia_led_tres = u + frequencia;    // 51
+const int8 frequencia_led_dois = p + frequencia_led_tres;   // 59
+const int8 frequencia_led_um = a + frequencia_led_dois; // 59
+
+const int16 a_cada_382_overflow_pisca = (int16)19531.25 / frequencia_led_tres;  // 382.96
+const int16 a_cada_382_overflow_pisca = (int16)19531.25 / frequencia_led_dois;  // 331.038
+
+
+int8 contador1=0, contador2=0, contador3=0;
+
+// 1000ms/0.0512ms = 19,531.25 qtd de overflow/segundo
+
+#INT_RTCC
+void  RTCC_isr(void) 
+{
+
+    if(contador1 > a_cada_382_overflow_pisca) {
+    
+    }
+    if() {
+    
+    }
+    if() {
+    }
+
+    contador1++;
+    contador2++;
+    contador3++;
+}
+
+void main()
+{
+    setup_timer_0(RTCC_INTERNAL|RTCC_DIV_1|RTCC_8_bit);        //51,2 us overflow
+
+
+    enable_interrupts(INT_RTCC);
+    enable_interrupts(GLOBAL);
+
+    while(TRUE)
+    {
+            
+
+    }
+
+}

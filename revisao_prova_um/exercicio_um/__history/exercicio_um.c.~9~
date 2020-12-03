@@ -1,0 +1,37 @@
+#include <exercicio_um.h>
+// 20178440081
+const int8 u = 1;
+const int8 p = 8;
+const int8 a = 0;
+
+const int8 frequencia = 50;
+
+const int8 led_3 = u + frequencia;
+const int8 led_2 = p + led_3;
+const int8 led_1 = a + led_2;
+
+#INT_RTCC
+void  RTCC_isr(void) 
+{
+    
+    contador_3 = 
+    
+    if() {
+    
+    }
+    
+}
+
+void main()
+{
+    setup_timer_0(RTCC_INTERNAL|RTCC_DIV_1|RTCC_8_bit);        //51,2 us overflow
+
+
+    enable_interrupts(INT_RTCC);
+    enable_interrupts(GLOBAL);
+
+    while(TRUE)
+    {
+    }
+
+}
