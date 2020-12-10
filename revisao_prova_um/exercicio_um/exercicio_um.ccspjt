@@ -14,11 +14,15 @@ Type=4
 1=exercicio_um.c
 
 [ProjectLog]
-Days=1
+Days=2
 D1=02-12-2020
 D1_L=2
 D1_L1=[82980]Project Opened.
 D1_L2=[82987]Started Editing.
+D2=03-12-2020
+D2_L=2
+D2_L1=[36222]Project Opened.
+D2_L2=[36281]Project Closed.
 
 [Opened Files]
 1=exercicio_um.c
