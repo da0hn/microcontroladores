@@ -1,0 +1,29 @@
+[PROJECT]
+Target=pwm_rgb.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=pwm_rgb.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\pwm_rgb\pwm_rgb]
+Type=4
+[mru-list]
+1=pwm_rgb.c
+
+[ProjectLog]
+Days=1
+D1=09-12-2020
+D1_L=1
+D1_L1=[70652]Project Opened.
+
+[Opened Files]
+1=pwm_rgb.c
+2=
+[pwm_rgb.c]
+Type=4
+[Units]
+Count=1
+1=pwm_rgb (main)
