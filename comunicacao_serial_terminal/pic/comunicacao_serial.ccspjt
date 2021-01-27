@@ -1,0 +1,41 @@
+[PROJECT]
+Target=comunicacao_serial.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=comunicacao_serial.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\comunicacao_serial_terminal\pic\comunicacao_serial]
+Type=4
+[mru-list]
+1=comunicacao_serial.c
+
+[ProjectLog]
+Days=1
+D1=27-01-2021
+D1_L=13
+D1_L1=[51446]Project Opened.
+D1_L2=[51565]Project Closed.
+D1_L3=[51576]Project Opened.
+D1_L4=[51623]Started Editing.
+D1_L5=[52182]Stopped Editing.
+D1_L6=[52528]Started Editing.
+D1_L7=[52842]Stopped Editing.
+D1_L8=[53194]Started Editing.
+D1_L9=[53495]Stopped Editing.
+D1_L10=[53948]Started Editing.
+D1_L11=[55342]Stopped Editing.
+D1_L12=[55527]Started Editing.
+D1_L13=[56655]Stopped Editing.
+
+[Opened Files]
+1=comunicacao_serial.c
+2=
+[comunicacao_serial.c]
+Type=4
+[Units]
+Count=1
+1=comunicacao_serial (main)
