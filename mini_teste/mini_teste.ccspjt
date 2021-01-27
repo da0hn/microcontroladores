@@ -1,0 +1,39 @@
+[PROJECT]
+Target=mini_teste.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=mini_teste.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\mini_teste_questao_1\mini_teste]
+Type=4
+[mru-list]
+1=mini_teste.c
+
+[ProjectLog]
+Days=1
+D1=15-12-2020
+D1_L=6
+D1_L1=[42019]Project Opened.
+D1_L2=[42073]Started Editing.
+D1_L3=[42416]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L4=[43510]Project Closed.
+D1_L5=[43510]Project Opened.
+D1_L6=[44606]Project Closed.
+
+[Opened Files]
+1=mini_teste.c
+2=mini_teste.h
+3=
+[mini_teste.c]
+Type=4
+[Units]
+Count=1
+1=mini_teste (main)

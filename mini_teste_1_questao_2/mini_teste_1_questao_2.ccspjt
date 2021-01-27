@@ -1,0 +1,48 @@
+[PROJECT]
+Target=mini_teste_1_questao_2.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=mini_teste_1_questao_2.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\mini_teste_1_questao_2\mini_teste_1_questao_2]
+Type=4
+[mru-list]
+1=mini_teste_1_questao_2.c
+
+[ProjectLog]
+Days=2
+D1=15-12-2020
+D1_L=12
+D1_L1=[44811]Project Opened.
+D1_L2=[45824]Started Editing.
+D1_L3=[45871]Stopped Editing.
+TotalEdit=15
+TotalDebug=0
+D1_E=15
+D1_D=0
+D1_L4=[45871]Project Closed.
+D1_L5=[45871]Project Opened.
+D1_L6=[45907]Started Editing.
+D1_L7=[46382]Stopped Editing.
+D1_L8=[46382]Project Closed.
+D1_L9=[46401]Project Opened.
+D1_L10=[46420]Started Editing.
+D1_L11=[47038]Stopped Editing.
+D1_L12=[47586]Project Closed.
+D2=27-01-2021
+D2_L=2
+D2_L1=[50845]Project Opened.
+D2_L2=[51446]Project Closed.
+
+[Opened Files]
+1=mini_teste_1_questao_2.c
+2=
+[mini_teste_1_questao_2.c]
+Type=4
+[Units]
+Count=1
+1=mini_teste_1_questao_2 (main)
