@@ -1,0 +1,31 @@
+[PROJECT]
+Target=contador_lcd.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=contador_lcd.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\estudo_prova\contador_lcd\contador_lcd]
+Type=4
+[mru-list]
+1=contador_lcd.c
+
+[ProjectLog]
+Days=1
+D1=22-02-2021
+D1_L=3
+D1_L1=[68512]Project Opened.
+D1_L2=[68877]Started Editing.
+D1_L3=[69177]Stopped Editing.
+
+[Opened Files]
+1=contador_lcd.c
+2=
+[contador_lcd.c]
+Type=4
+[Units]
+Count=1
+1=contador_lcd (main)
