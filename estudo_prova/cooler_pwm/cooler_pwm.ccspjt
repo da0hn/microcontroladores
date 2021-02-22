@@ -1,0 +1,30 @@
+[PROJECT]
+Target=cooler_pwm.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=cooler_pwm.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\estudo_prova\cooler_pwm\cooler_pwm]
+Type=4
+[mru-list]
+1=cooler_pwm.c
+
+[ProjectLog]
+Days=1
+D1=22-02-2021
+D1_L=2
+D1_L1=[70376]Project Opened.
+D1_L2=[71274]Started Editing.
+
+[Opened Files]
+1=cooler_pwm.c
+2=
+[cooler_pwm.c]
+Type=4
+[Units]
+Count=1
+1=cooler_pwm (main)
