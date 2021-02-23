@@ -6,8 +6,6 @@ int8 contador = 0;
 #INT_RTCC
 void RTCC_isr(void)
 {
-	valorLido = read_adc();
-
 	// 1000us / 51.2us = 19,...
 
 	if (contador > 19)
@@ -20,12 +18,31 @@ void RTCC_isr(void)
 
 void mostraDisplay(unsigned int16 valorLido)
 {
-	int8 unidade = valorLido % 10;
-	int8 dezena = (valorLido - (valorLido % 10)) / 10;
-	int8 centena = (valorLido - (valorLido % 100)) / 100;
-	int8 milhar = (valorLido - (valorLido % 1000)) / 1000;
+	// https://www.youtube.com/watch?v=CbJPSeapQ5U
+	int16 milhar = (valorLido / 1000);				// extrai milhar
+	int8 centena = (valorLido % 1000) / 100;	// extrai centena
+	int8 dezena = (valorLido % 100) / 10;			// extrai dezena
+	int8 unidade = (valorLido % 100) % 10;		// extrai unidade
 
-	
+	output_high(display_milhar);
+	output_d(numeros[milhar]);
+	delay_ms(5);
+	output_low(display_milhar);
+
+	output_high(display_centena);
+	output_d(numeros[centena]);
+	delay_ms(5);
+	output_low(display_centena);
+
+	output_high(display_dezena);
+	output_d(numeros[dezena]);
+	delay_ms(5);
+	output_low(display_dezena);
+
+	output_high(display_unidade);
+	output_d(numeros[unidade]);
+	delay_ms(5);
+	output_low(display_unidade);
 }
 
 void main()
@@ -39,6 +56,7 @@ void main()
 
 	while (TRUE)
 	{
+		valorLido = read_adc();
 		mostraDisplay(valorLido);
 	}
 }

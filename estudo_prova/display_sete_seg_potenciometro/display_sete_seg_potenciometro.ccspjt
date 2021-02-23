@@ -1,8 +1,9 @@
 [PROJECT]
-Target=C:\Users\Gabriel\Desktop\microcontroladores_programas\estudo_prova\display_sete_seg_potenciometro\display_sete_seg_potenciometro.hex
+Target=display_sete_seg_potenciometro.hex
 Processor_Text=PIC16F877A
 CCSVerions=5.025
 Compiler=PCM
+CCSVersion=5.025
 [Target Data]
 FileList=display_sete_seg_potenciometro.c
 [Directories]
@@ -11,12 +12,20 @@ Include=
 Type=4
 [mru-list]
 1=display_sete_seg_potenciometro.c
-[Units]
-Count=1
-1=display_sete_seg_potenciometro (main)
 
 [ProjectLog]
 Days=1
 D1=22-02-2021
-D1_L=1
+D1_L=3
 D1_L1=[73104]Project Opened.
+D1_L2=[78846]Project Closed.
+D1_L3=[81125]Project Opened.
+
+[Opened Files]
+1=display_sete_seg_potenciometro.c
+2=
+[display_sete_seg_potenciometro.c]
+Type=4
+[Units]
+Count=1
+1=display_sete_seg_potenciometro (main)
