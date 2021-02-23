@@ -14,10 +14,15 @@ Type=4
 1=pwm_rgb.c
 
 [ProjectLog]
-Days=1
+Days=2
 D1=09-12-2020
-D1_L=1
+D1_L=2
 D1_L1=[70652]Project Opened.
+D1_L2=[72974]Project Closed.
+D2=15-12-2020
+D2_L=2
+D2_L1=[41723]Project Opened.
+D2_L2=[42019]Project Closed.
 
 [Opened Files]
 1=pwm_rgb.c

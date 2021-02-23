@@ -14,9 +14,9 @@ Type=4
 1=comunicacao_serial.c
 
 [ProjectLog]
-Days=1
+Days=2
 D1=27-01-2021
-D1_L=13
+D1_L=14
 D1_L1=[51446]Project Opened.
 D1_L2=[51565]Project Closed.
 D1_L3=[51576]Project Opened.
@@ -30,6 +30,15 @@ D1_L10=[53948]Started Editing.
 D1_L11=[55342]Stopped Editing.
 D1_L12=[55527]Started Editing.
 D1_L13=[56655]Stopped Editing.
+TotalEdit=37
+TotalDebug=0
+D1_E=37
+D1_D=0
+D1_L14=[58211]Project Closed.
+D2=28-01-2021
+D2_L=2
+D2_L1=[34884]Project Opened.
+D2_L2=[34906]Project Closed.
 
 [Opened Files]
 1=comunicacao_serial.c
