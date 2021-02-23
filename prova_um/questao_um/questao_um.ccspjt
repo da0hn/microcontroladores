@@ -1,0 +1,30 @@
+[PROJECT]
+Target=questao_um.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=questao_um.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\prova_um\questao_um\questao_um]
+Type=4
+[mru-list]
+1=questao_um.c
+
+[ProjectLog]
+Days=1
+D1=23-02-2021
+D1_L=2
+D1_L1=[37116]Project Opened.
+D1_L2=[38845]Started Editing.
+
+[Opened Files]
+1=questao_um.c
+2=
+[questao_um.c]
+Type=4
+[Units]
+Count=1
+1=questao_um (main)

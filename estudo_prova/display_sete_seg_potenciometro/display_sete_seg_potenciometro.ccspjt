@@ -14,12 +14,18 @@ Type=4
 1=display_sete_seg_potenciometro.c
 
 [ProjectLog]
-Days=1
+Days=2
 D1=22-02-2021
-D1_L=3
+D1_L=4
 D1_L1=[73104]Project Opened.
 D1_L2=[78846]Project Closed.
 D1_L3=[81125]Project Opened.
+D1_L4=[81953]Project Closed.
+D2=23-02-2021
+D2_L=3
+D2_L1=[34889]Project Opened.
+D2_L2=[36101]Project Opened.
+D2_L3=[37115]Project Closed.
 
 [Opened Files]
 1=display_sete_seg_potenciometro.c
