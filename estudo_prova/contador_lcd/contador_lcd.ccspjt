@@ -16,10 +16,15 @@ Type=4
 [ProjectLog]
 Days=1
 D1=22-02-2021
-D1_L=3
+D1_L=4
 D1_L1=[68512]Project Opened.
 D1_L2=[68877]Started Editing.
 D1_L3=[69177]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L4=[70376]Project Closed.
 
 [Opened Files]
 1=contador_lcd.c
