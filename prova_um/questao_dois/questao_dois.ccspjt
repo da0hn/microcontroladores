@@ -1,0 +1,31 @@
+[PROJECT]
+Target=questao_dois.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=questao_dois.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\prova_um\questao_dois\questao_dois]
+Type=4
+[mru-list]
+1=questao_dois.c
+
+[ProjectLog]
+Days=1
+D1=23-02-2021
+D1_L=3
+D1_L1=[39516]Project Opened.
+D1_L2=[40224]Started Editing.
+D1_L3=[40703]Stopped Editing.
+
+[Opened Files]
+1=questao_dois.c
+2=
+[questao_dois.c]
+Type=4
+[Units]
+Count=1
+1=questao_dois (main)
