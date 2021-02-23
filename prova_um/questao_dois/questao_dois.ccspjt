@@ -16,10 +16,12 @@ Type=4
 [ProjectLog]
 Days=1
 D1=23-02-2021
-D1_L=3
+D1_L=5
 D1_L1=[39516]Project Opened.
 D1_L2=[40224]Started Editing.
 D1_L3=[40703]Stopped Editing.
+D1_L4=[42080]Project Opened.
+D1_L5=[42207]Project Closed.
 
 [Opened Files]
 1=questao_dois.c

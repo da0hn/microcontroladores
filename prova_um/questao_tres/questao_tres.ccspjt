@@ -1,0 +1,38 @@
+[PROJECT]
+Target=questao_tres.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=questao_tres.c
+[Directories]
+Include=
+[C:\Users\Gabriel\Desktop\microcontroladores_programas\prova_um\questao_tres\questao_tres]
+Type=4
+[mru-list]
+1=questao_tres.c
+
+[ProjectLog]
+Days=1
+D1=23-02-2021
+D1_L=6
+D1_L1=[42207]Project Opened.
+D1_L2=[43149]Started Editing.
+D1_L3=[43644]Stopped Editing.
+D1_L4=[44923]Started Editing.
+D1_L5=[44964]Stopped Editing.
+TotalEdit=4
+TotalDebug=0
+D1_E=4
+D1_D=0
+D1_L6=[44964]Project Closed.
+
+[Opened Files]
+1=questao_tres.c
+2=
+[questao_tres.c]
+Type=4
+[Units]
+Count=1
+1=questao_tres (main)
