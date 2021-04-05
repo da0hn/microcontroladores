@@ -1,0 +1,42 @@
+[PROJECT]
+Target=leitor_serial.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=leitor_serial.c
+[Directories]
+Include=
+[C:\Users\gabri\Documents\code\microcontroladores\leitor_serial\leitor_serial]
+Type=4
+[mru-list]
+1=leitor_serial.c
+
+[ProjectLog]
+Days=1
+D1=24-03-2021
+D1_L=4
+D1_L1=[31218]Project Opened.
+D1_L2=[31296]Started Editing.
+D1_L3=[32760]Stopped Editing.
+TotalEdit=20
+TotalDebug=0
+D1_E=20
+D1_D=0
+D1_L4=[46474]Project Closed.
+
+[ExtraIncludes]
+Count=1
+1=leitor_serial=c:\users\gabri\documents\code\sistema-catraca\projeto_catraca\sistema_catraca.h
+
+[Opened Files]
+1=leitor_serial.c
+2=leitor_serial.h
+3=lcd_util.c
+4=
+[leitor_serial.c]
+Type=4
+[Units]
+Count=1
+1=leitor_serial (main)

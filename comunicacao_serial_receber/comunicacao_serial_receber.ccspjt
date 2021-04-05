@@ -1,0 +1,39 @@
+[PROJECT]
+Target=comunicacao_serial_receber.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=comunicacao_serial_receber.c
+[Directories]
+Include=
+[C:\Users\gabri\Documents\code\microcontroladores\comunicacao_serial_receber\comunicacao_serial_receber]
+Type=4
+[mru-list]
+1=comunicacao_serial_receber.c
+
+[ProjectLog]
+Days=1
+D1=21-03-2021
+D1_L=6
+D1_L1=[66476]Project Opened.
+D1_L2=[66614]Started Editing.
+D1_L3=[68021]Stopped Editing.
+D1_L4=[68134]Started Editing.
+D1_L5=[68587]Stopped Editing.
+TotalEdit=21
+TotalDebug=0
+D1_E=21
+D1_D=0
+D1_L6=[70095]Project Closed.
+
+[Opened Files]
+1=comunicacao_serial_receber.c
+2=comunicacao_serial_receber.h
+3=
+[comunicacao_serial_receber.c]
+Type=4
+[Units]
+Count=1
+1=comunicacao_serial_receber (main)
