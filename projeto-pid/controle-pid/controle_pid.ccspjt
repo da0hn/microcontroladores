@@ -1,0 +1,31 @@
+[PROJECT]
+Target=controle_pid.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.025
+Compiler=PCM
+[Target Data]
+FileList=controle_pid.c
+[controle_pid.c]
+Type=4
+[mru-list]
+1=controle_pid.c
+
+[ProjectLog]
+Days=1
+D1=05-04-2021
+D1_L=7
+D1_L1=[57586]Project Opened.
+D1_L2=[58021]Project Closed.
+D1_L3=[59010]Project Opened.
+D1_L4=[59013]Project Closed.
+D1_L5=[59013]Project Opened.
+D1_L6=[59044]Started Editing.
+D1_L7=[59363]Stopped Editing.
+
+[Opened Files]
+1=controle_pid.c
+2=controle_pid.h
+3=
+[Units]
+Count=1
+1=controle_pid (main)
