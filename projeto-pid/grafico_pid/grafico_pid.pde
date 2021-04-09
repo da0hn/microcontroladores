@@ -27,6 +27,7 @@ void draw()
   while (port.available() > 0) {
     serialEvent(port.read());
   }
+  delay(150);
 }
 
 void serialEvent(int serial)
