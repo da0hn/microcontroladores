@@ -14,7 +14,7 @@ void setup()
   size(1000, 600); 
   println("Portas seriais disponíveis:");
   println(Serial.list());
-  port = new Serial(this, Serial.list()[1], 9600);// atenção para esta
+  port = new Serial(this, Serial.list()[1], 9600);
     for (int i = 0; i<99; i++) {
       entrada[i] = 0;
       temperatura[i] = 0; 

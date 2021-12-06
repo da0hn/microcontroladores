@@ -11,7 +11,7 @@ Type=4
 1=controle_pid.c
 
 [ProjectLog]
-Days=3
+Days=4
 D1=05-04-2021
 D1_L=8
 D1_L1=[57586]Project Opened.
@@ -21,7 +21,7 @@ D1_L4=[59013]Project Closed.
 D1_L5=[59013]Project Opened.
 D1_L6=[59044]Started Editing.
 D1_L7=[59363]Stopped Editing.
-TotalEdit=28
+TotalEdit=34
 TotalDebug=0
 D1_E=1
 D1_D=0
@@ -39,11 +39,11 @@ D2_E=7
 D2_D=0
 D2_L8=[41939]Project Closed.
 D3=08-04-2021
-D3_L=11
+D3_L=12
 D3_L1=[70549]Project Opened.
 D3_L2=[70573]Started Editing.
 D3_L3=[71755]Stopped Editing.
-D3_E=20
+D3_E=25
 D3_D=0
 D3_L4=[71755]Project Closed.
 D3_L5=[71893]Project Opened.
@@ -53,6 +53,15 @@ D3_L8=[72095]Started Editing.
 D3_L9=[72634]Stopped Editing.
 D3_L10=[72658]Started Editing.
 D3_L11=[72962]Stopped Editing.
+D3_L12=[80757]Project Closed.
+D4=09-04-2021
+D4_L=4
+D4_L1=[26505]Project Opened.
+D4_L2=[27033]Started Editing.
+D4_L3=[27336]Stopped Editing.
+D4_E=1
+D4_D=0
+D4_L4=[28345]Project Closed.
 
 [Opened Files]
 1=controle_pid.c

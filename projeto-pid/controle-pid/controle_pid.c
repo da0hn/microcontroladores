@@ -82,7 +82,7 @@ void main()
       somatorioPID = proporcional + integrativo + derivativo;
 
 
-      printf(lcd_escreve, "\fRef=%Ld,Err=%Ld\n\rTemp=%Ld,pid=%Ld", temperaturaReferencia, erro, temperaturaLM35, somatorioPID);
+      printf(lcd_escreve, "\fRef=%Ld,Err=%Ld\n\rTemp=%Ld", temperaturaReferencia, erro, temperaturaLM35);
       fprintf(SERIAL, "%ld,%ld,%ld\n", temperaturaReferencia, temperaturaLM35, erro);
       delay_ms(10);
    }
